@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, brigadier,
+ [
+  {description, "brigadier"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { brigadier_app, []}},
+  {env, []}
+ ]}.
