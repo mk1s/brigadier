@@ -1,5 +1,5 @@
 {% extends "base.dtl" %}
 
 {% block content %}
-	SMS Override
+	current driver &rarr; {{ driver }}
 {% endblock %}

@@ -1,5 +1,5 @@
 
--module(brigadier_resource).
+-module(brigadier_auth_resource).
 -export([init/1, to_html/2]).
 
 -include_lib("webmachine/include/webmachine.hrl").

@@ -1,3 +1,3 @@
 #!/bin/sh
 cd `dirname $0`
-exec erl -pa $PWD/ebin $PWD/deps/*/ebin -boot start_sasl -s reloader -s brigadier
+exec erl -pa $PWD/ebin $PWD/deps/*/ebin -boot start_sasl -s reloader -s brigadier -config $PWD/priv/app.config

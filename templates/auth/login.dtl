@@ -1,0 +1,17 @@
+{% extends 'base.dtl' %}
+{% block content %}
+
+	<div class="span4 offset4">
+		<form class="well form-vertical" method="POST" action="/login">							
+		<table class="bordered" style="width:100%;padding:0px;">					
+				<tbody>					
+					<tr><td>&nbsp;</td></tr>
+					<tr><td style="text-align:center;"><input class="input-med" type="text" placeholder="username"></td></tr>
+					<tr><td style="text-align:center;"><input class="input-med" type="password" placeholder="password"></td></tr>
+					<tr><td style="float:right;"><input class="btn btn-primary" type="submit" value="sign in"></td></tr>
+				</tbody>		
+		</table>
+		</form>
+	</div>
+	
+{% endblock %}
